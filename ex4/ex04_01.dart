@@ -11,7 +11,7 @@ var i = g + h;
 var j = h + i;
 var k = i + j;
 
-print ('''Fibonnacci 
+print ('''Suite de Fibonnacci : 11 premiers termes
     $a
     $b
     $c
