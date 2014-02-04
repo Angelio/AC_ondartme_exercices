@@ -1,3 +1,4 @@
+//Après avoir lu cours n°4, essaye seul
 String SuiteFibonacci(int k) {
   var a = 0;
   var b = 1; 
@@ -13,7 +14,7 @@ String SuiteFibonacci(int k) {
   }
   return result;
 }
-
+// imprimer les 11 premiers termes de la suite de Fibonacci en partant du terme 0
 main() {
   int count = 10;
   String sequence =

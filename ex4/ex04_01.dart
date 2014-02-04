@@ -10,7 +10,7 @@ var h = f + g;
 var i = g + h;
 var j = h + i;
 var k = i + j;
-
+//Donner les 11 premiers termes de la suite de Fibonacci à partir du terme 0
 print ('''Suite de Fibonnacci : 11 premiers termes
     $a
     $b
