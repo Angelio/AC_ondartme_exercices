@@ -58,21 +58,43 @@ print ('----');
 print("Exercice 3 : Création d'une liste des membres d'une association"); 
 print ('');
 print ('Ok pour le concept mais à part faire des changements dans votre modèle, que faire ?');
-
 print ('----');
 
 print("Exercice 4 : Création d'un algotithme d'une matrice"); 
 print ('');
-print ('''Je n'ai pas assez étudier les matrices pour comprendre l'exercice et ce qui est demandé. Notamment la notion d'île, d'horizontale et de verticale.''');
-matrice();
 
+List lstMatrix = [
+                  [1, 0, 0, 1],
+                  [0, 1, 1, 0],
+                  [0, 0, 1, 0],
+                  [1, 0, 1, 0],
+                  [1, 0, 1, 0],
+                  [1, 0, 0, 1]
+];
+List lstMatrix2 =[
+                  [0, 0, 1, 0, 0, 1, 0, 0],
+                  [1, 0, 0, 0, 0, 0, 0, 1],
+                  [0, 0, 1, 0, 0, 1, 0, 1],
+                  [0, 1, 0, 0, 0, 1, 0, 0],
+                  [1, 0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 1, 1, 0, 1, 1, 0],
+                  [1, 0, 1, 1, 0, 1, 1, 0],
+                  [0, 0, 0, 0, 0, 0, 0, 0]
+];
+print('''Nombre d'île :''' + nbrile(lstMatrix));
+lstMatrix.forEach(print);
+print('');
+print('''Nombre d'île :''' + nbrile(lstMatrix2));
+lstMatrix2.forEach(print); 
 print ('----');
+
 
 print("Exercice 5 : Création d'un puzzle ou de carrés mystiques"); 
 print ('');
-print ('''Ok pour le concept, je partirais de votre algorithme et je fais arrêter le modèle dès qu'il y a la bonne configuration. Puis il faudrait trouver un moyen de faire le chemin le plus court pour y arriver. ''');
+print ('''Ok pour le concept, je partirais de votre algorithme et je fais arrêter le modèle dès qu'il y a la bonne configuration. Puis il faudrait trouver un moyen de faire le chemin le plus court pour y arriver.
+Ex8_test est la base de la reflexion ''');
+print ('');
 block();
   
-
 }
 

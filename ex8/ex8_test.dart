@@ -1,3 +1,5 @@
+//Recherche de l'exercice 8-5
+
 // trouver le moyen d'arrêter lorsque 1 (0,0), 2 (0,1), 3 (1,0) et nothing (1,1) 
 
 part of ex8;
