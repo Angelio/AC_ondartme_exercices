@@ -1,7 +1,0 @@
-name: association
-version: 0.0.1
-author: Dzenan Ridjanovic <dzenanr@gmail.com>
-description: Simple model with one many-to-many relationship.
-homepage: http://ondart.me/
-dependencies:
-  unittest: any
