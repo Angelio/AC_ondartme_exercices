@@ -1,6 +1,6 @@
 ex08
 
-16/20
+12/20
 
 8.1
 
@@ -14,5 +14,5 @@ pas fait
 Ok pour le concept mais a part faire des changements dans votre modele, que faire ?
 tests unitaires
 
-8.5
-très bonne tentative
+(-4) 8.5
+presque identique à mon projet
