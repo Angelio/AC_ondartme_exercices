@@ -1,0 +1,18 @@
+ex08
+
+16/20
+
+8.1
+
+nouvellePhrase = nouvellePhrase + adjectif.elementAt(rndm.nextInt(adjectif.length));
+->
+nouvellePhrase = nouvellePhrase + ' ' + adjectif.elementAt(rndm.nextInt(adjectif.length));
+
+(-4) 8.3
+pas fait
+
+Ok pour le concept mais a part faire des changements dans votre modele, que faire ?
+tests unitaires
+
+8.5
+très bonne tentative
